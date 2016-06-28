@@ -43,17 +43,17 @@ class MakeView extends Command
 
         $paths = implode('/', $partsOfView);
 
-        if (!is_dir(view_path($paths))) {
-            mkdir(view_path($paths), 0777, true);
+        if (!is_dir(\view_path($paths))) {
+            mkdir(\view_path($paths), 0777, true);
         }
 
         $viewName = $paths . '/' . $nameOfFile . '.blade.php';
 
-        if (file_exists(view_path($viewName))) {
+        if (file_exists(\view_path($viewName))) {
             throw new \Exception("File already exists.");
         }
 
-        File::put(view_path($viewName), '');
+        File::put(\view_path($viewName), '');
 
         $this->info('File created.');
     }
