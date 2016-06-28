@@ -1,4 +1,4 @@
-Laravel make:view {view}
+#Laravel make:view {view}
 
 Just put the Daavelar\Console\MakeView in your Kernel.php...
 
