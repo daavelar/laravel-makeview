@@ -1,0 +1,12 @@
+{
+  "name": "daavelar/laravel-makeview",
+  "description": "Generate Laravel views",
+  "authors": [
+    {
+      "name": "Diego Avelar",
+      "email": "diegoarmando2011@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
