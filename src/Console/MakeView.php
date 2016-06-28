@@ -1,6 +1,6 @@
 <?php
 
-namespace Daavelar\Laravel\Console;
+namespace Daavelar\Console\MakeView;
 
 use File;
 use Illuminate\Console\Command;
