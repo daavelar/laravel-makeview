@@ -7,6 +7,9 @@
       "email": "diegoarmando2011@gmail.com"
     }
   ],
-  "require": {
+  "autoload": {
+    "psr-4": {
+      "Daavelar\\": "src/"
+    }
   }
 }
